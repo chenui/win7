@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\SubLime]
+
+[HKEY_CLASSES_ROOT\*\shell\SubLime\Command]
+@="C:\\Program Files\\Sublime Text 2\\sublime_text.exe \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\SubLime]
+
+[HKEY_CLASSES_ROOT\Directory\shell\SubLime\Command]
+@="C:\\Program Files\\Sublime Text 2\\sublime_text.exe -a \"%1\""
