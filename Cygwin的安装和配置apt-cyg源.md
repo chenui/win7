@@ -10,7 +10,7 @@ cygwin能够在windows下模拟Linux下的命令行环境，能够应用linux下
 	 wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin
 	 chmod.exe +x /bin/apt-cyg
 
-apt-cyg安装源为ftp://mirror.mcs.anl.gov，可以自定义更新颖，网上都推荐用网易的`http://mirrors.163.com/cygwin/`，但是在cygwin的官方镜像中并没有网易的站点，怀疑网易的站点可能更新慢，就还是选择了安装cygwin时用的更新源`http://mirrors.neusoft.edu.cn/cygwin/`
+apt-cyg安装源为`ftp://mirror.mcs.anl.gov`，可以自定义更新颖，网上都推荐用网易的`http://mirrors.163.com/cygwin/`，但是在cygwin的官方镜像中并没有网易的站点，怀疑网易的站点可能更新慢，就还是选择了安装cygwin时用的更新源`http://mirrors.neusoft.edu.cn/cygwin/`
 
 	apt-cyg -m http://mirrors.neusoft.edu.cn/cygwin/
 
